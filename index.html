@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+      <h1>Pseudo-element Examples</h1>
+      <h2>Example 1 (::after)</h2>
+      <p><a href="http://www.google.com" class="arrow">This is a link with an arrow!</a></p>
+  
+      <h2>Example 2 (::before, ::after)</h2>
+    <p><a href="http://www.google.com" class="hexagon">This is a link with an arrow and a hexagon!</a></p>
+  
+      <h2>Example 3 (::after)</h2>
+    <p><a href="http://www.google.com" class="print">This is a print styles link!</a></p>
+    </div>
+    <div class="link1s">
+    <h2 class="linkpseudo1">Link Pseudo-Classes</h2>
+    <a href="https://codepen.io/" target="_blank" class="visited1">:visited pseudo-class</a>
+    <a href="https://codepen.io/" target="_blank" class="visited2">:link pseudo-class</a>
+    </div>
+    <div class="link1s">
+      <h2 class="linkpseudo1">USER ACTION PSEUDO-CLASSES</h2>
+      <div class="pshka">HOVER pseudo-class</div>
+      <a href="https://codepen.io/" target="_blank" id="active">:active pseudo-class</a>
+      <a href="https://codepen.io/" target="_blank" id="focus">:focus pseudo-class</a>
+    </div>
+    <div class="link1s">
+      <h2 class="linkpseudo1">USER INTERFACE STATE PSEUDO-CLASSES</h2>
+      <div>First name:</div> <input type="text" name="fname" placeholder="Malcolm">
+      <div>Last name:</div> <input type="text" name="lname" placeholder="Reynolds" disabled>
+      <div>I own a Firefly-class transport ship</div> <input type="checkbox" value="FireflyClass" name="vehicle" checked>
+    </div>
+    <article>
+      <h3>:first-of-type :last-of-type and :only-of-type</h3>
+      
+      <p>This paragraph is selected by :first-of-type</p>
+      
+      <p>This paragraph will not be selected</p>
+      
+      <span>This span is selected by :only-of-type</span>
+      
+      <p>This paragraph is selected by :last-of-type</p>
+    </article>
+    <article>
+      <h3>:nth-child(n) and :nth-last-child(n)</h3>
+      
+      <h4>First line of text</h4>
+      <h4>Second line of text</h4>
+      <h4>Third line of text</h4>
+      <h4>Fourth line of text</h4>
+      <h4>Fifth line of text</h4>
+      <h4>Sixth line of text</h4>
+    </article>
+    <div class="link1s">
+      <h2 class="linkpseudo1">USER INTERFACE STATE PSEUDO-CLASSES</h2>
+      <h6 class="bold">This is some bold text</h6>
+      <h6 class="bold">This is some more bold text</h6>
+      <h6>This is selected with :not(.bold) and is not bold</h6>
+    </div>
+</body>
+</html>
